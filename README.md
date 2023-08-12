@@ -32,12 +32,12 @@ account.toV3(password)
 then use CTRL+X , and save the file.
 you can use the following command to generate UTC file by using privatekey and any password you want.
 
-change the <your-private-key> and <some-random-password> as you need
 
 ```
 // Generate UTC File
 node export-key-as-json.js <your-private-key> <some-random-password>
 ```
 
+change the "your-private-key" and "some-random-password" as you need
 
 
