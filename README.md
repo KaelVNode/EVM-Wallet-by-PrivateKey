@@ -1,5 +1,5 @@
 
-# You can use this tutorial to get UTC file for your wallet from a private key.
+## You can use this tutorial to get UTC file for your wallet from a private key.
 
 
 ```
@@ -11,7 +11,7 @@ npm install ethereumjs-wallet
 nano export-key-as-json.js
 ```
 
-# then paste all code on the box below
+## then paste all code on the box below
 
 ```
 const fs = require("fs")
@@ -29,7 +29,7 @@ account.toV3(password)
     });
 ```
 
-# then use CTRL+X , and save the file.
+## then use CTRL+X , and save the file.
 you can use the following command to generate UTC file by using privatekey and any password you want.
 
 
@@ -38,6 +38,6 @@ you can use the following command to generate UTC file by using privatekey and a
 node export-key-as-json.js <your-private-key> <some-random-password>
 ```
 
-# change the "your-private-key" and "some-random-password" as you need
+## change the "your-private-key" and "some-random-password" as you need
 
 
